@@ -1,16 +1,23 @@
 <template>
     <div class="home">
         <h1>Home</h1>
-        <ButtonRed>Make sure I change and I am really long</ButtonRed>
+        <ButtonHome>Make sure I change and I am really long</ButtonHome>
+        <CardHome />
     </div>
+   
+    
 </template>
 
 <script> 
-import ButtonRed from '../_shared/Button.vue'
+import ButtonHome from '../_shared/Button.vue'
+import CardHome from '../_shared/Card.vue'
+
 export default {
-    name: 'HomeRed',
+    name: 'HomePage', 
     components: {
-        ButtonRed
+        ButtonHome, CardHome
     }
-}   
+}
+   
+
 </script>
